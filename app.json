@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MultipleSelect",
-    "slug": "MultipleSelect",
+    "slug": "multipleselect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mehmetcaloglu.multipleselect"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7541e6fb-8166-44a6-a39a-088bf391f281"
+      }
+    },
+    "owner": "mehmetcaloglu"
   }
 }
